@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# validate commit message
+if [ ! $2 = "message" ]; then
+  echo -e "set commit message. 
+          git commit -m 'commit-message'"
+  exit 1
+else
+  exit 0
+fi

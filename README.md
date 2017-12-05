@@ -42,3 +42,15 @@ python -m unittest unittest_hello.TestHelloUnitTest.test_add
 ```
 assertEqual(a, b)
 ```
+
+# githook
+
+- setup
+```
+ln -s $(dir=`pwd`; echo ${dir}/.git_template/hooks) .git/hooks
+```
+
+- or set template on git/config
+```
+git config init.templatedir ~/.git_template/
+```
