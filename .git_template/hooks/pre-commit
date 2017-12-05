@@ -2,8 +2,7 @@
 
 # execute unittest when developer git commit
 TESTER="unittest_hello.py"
-grep -v -e'^#' -e'^$' $1 >/dev/null
 
-source ./myvenv/bin/active
+source ./myvenv/bin/activate
 python ${TESTER}
 exit $?
