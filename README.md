@@ -54,3 +54,6 @@ ln -s $(dir=`pwd`; echo ${dir}/.git_template/hooks) .git/hooks
 ```
 git config init.templatedir ~/.git_template/
 ```
+
+- ref: https://qiita.com/mima_ita/items/dcaa3789022d2a9ab929
+
